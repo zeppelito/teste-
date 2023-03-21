@@ -1,7 +1,10 @@
 @import '../abstract/variaveis';
- 
-h2 {
 
-  background-color: $verde_escuro
-
+.cabeceira {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
 }
+
