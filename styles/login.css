@@ -1,0 +1,37 @@
+.cabeceira {
+  text-align: center;
+}
+.cabeceira h2 {
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 20px;
+}
+
+.formulario form {
+  text-align: center;
+}
+
+.footer {
+  background-color: #31DD6F;
+  height: 66px;
+}
+.footer .links {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+.footer .links a {
+  margin: 5px;
+}
+
+.formulario {
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  font-family: "M PLUS 1", sans-serif;
+  background-color: #31DD6F;
+}
+
+html, body {
+  font-family: "M PLUS 1", sans-serif;
+}/*# sourceMappingURL=login.css.map */
