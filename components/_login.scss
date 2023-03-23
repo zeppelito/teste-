@@ -39,3 +39,19 @@
   font-family: $font_quar;
   background-color: $verde_escuro;
 }
+
+.input-padrao, .imput2 {
+  background-color: $verde_claro;
+  border-radius: 20px;
+  height: 30px;
+  width: 300px;
+
+}
+.imput2 {
+  padding: 3em 0 0 0;
+  display: flex;
+}
+input::placeholder {
+  text-align: left;
+  font-family: $font_main; 
+}
