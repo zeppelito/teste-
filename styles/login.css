@@ -26,10 +26,8 @@
 .formulario {
   padding: 20px;
   margin-bottom: 20px;
-  border: 2px solid #ccc;
   border-radius: 20px;
   font-family: "M PLUS 1", sans-serif;
-  background-color: #31DD6F;
 }
 
 .input-padrao, .imput2 {
@@ -37,11 +35,13 @@
   border-radius: 20px;
   height: 30px;
   width: 300px;
+  margin: 2em;
 }
 
 .imput2 {
   padding: 3em 0 0 0;
   display: flex;
+  background-color: #97eab5;
 }
 
 input::-moz-placeholder {
@@ -52,6 +52,15 @@ input::-moz-placeholder {
 input::placeholder {
   text-align: left;
   font-family: "M PLUS 1", sans-serif;
+}
+
+.enviar {
+  background-color: #31DD6F;
+  border-radius: 20px;
+  justify-content: center;
+  font-family: "M PLUS 1", sans-serif;
+  padding: 0 5em 1em 5em;
+  margin: 40px;
 }
 
 html, body {

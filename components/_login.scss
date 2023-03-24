@@ -34,10 +34,8 @@
 .formulario {
   padding: 20px;
   margin-bottom: 20px;
-  border: 2px solid #ccc;
   border-radius: 20px;
   font-family: $font_quar;
-  background-color: $verde_escuro;
 }
 
 .input-padrao, .imput2 {
@@ -45,13 +43,25 @@
   border-radius: 20px;
   height: 30px;
   width: 300px;
+  margin: 2em;
 
 }
 .imput2 {
   padding: 3em 0 0 0;
   display: flex;
+  background-color: $verde_claro;
+
 }
 input::placeholder {
   text-align: left;
   font-family: $font_main; 
+}
+
+.enviar {
+  background-color: $verde_escuro;
+  border-radius: 20px;
+  justify-content: center;
+  font-family: $font_main;
+  padding: 0 5em 1em 5em ;
+  margin: 40px;
 }
