@@ -1,0 +1,23 @@
+.cabeceira {
+    text-align: center;
+  
+    h2 {
+      font-family: $font_quar;
+      font-size: 20px;
+    } 
+  }
+
+.footer {
+    background-color: $verde_escuro;
+    height: 66px;
+
+    .links {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 0 0;
+        
+        a {
+            margin: 5px;
+        }
+    }
+}

@@ -14,4 +14,8 @@ $branco: #ffffff;
 
 //TAMANHO FONTE
 
-$font_size_main: 3rem
+$font_size_main: 3rem;
+
+html, body {
+    font-family: $font_main;
+}
