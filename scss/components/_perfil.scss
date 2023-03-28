@@ -1,0 +1,21 @@
+.headercomponents {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px 0 15px;
+  background-color: $verde_escuro;
+}
+
+.profile {
+  img {
+    margin: 50px 0 0 250px;
+  }
+
+  h2 {
+    display: flex;
+    font-family: $font_terc;
+    padding: 0.75em 0 0 0;
+    margin: 20px;
+    font-size: 2em;
+    text-decoration: underline;
+  }
+}

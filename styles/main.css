@@ -208,6 +208,198 @@ input::placeholder {
   margin: 5px;
 }
 
+.headercomponents {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px 0 15px;
+  background-color: #31DD6F;
+}
+
+.profile img {
+  margin: 50px 0 0 250px;
+}
+.profile h2 {
+  display: flex;
+  font-family: "NTR", sans-serif;
+  padding: 0.75em 0 0 0;
+  margin: 20px;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.container {
+  height: 1110px;
+  overflow-y: auto;
+}
+
+.fixed-content {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  z-index: 600;
+}
+
+.scrollable-content {
+  height: 1000px;
+  overflow-y: auto;
+}
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 200%;
+  color: #31DD6F;
+  margin: 20px 15px 2px 55px;
+  justify-content: center;
+}
+
+.botoes button {
+  margin: 20px;
+  border: 25px solid #97eab5;
+  width: 140px;
+  height: 80px;
+  color: black;
+  border-radius: 80px;
+  padding: 3px 2px 2px;
+  background: #97eab5;
+}
+
+.grafics {
+  display: flex;
+  justify-content: center;
+  margin: 20;
+  padding: 8px 0 40px 0;
+  margin-top: 100px;
+}
+
+.barr_inferior {
+  position: absolute;
+  width: 395px;
+  height: 85px;
+  left: -2px;
+  top: 759px;
+}
+
+.barra-de-tarefas {
+  background: #31DD6F;
+  height: 90px;
+  padding: 0;
+  margin: 0;
+  width: 395px;
+  height: 85px;
+  left: -2px;
+  top: 759px;
+}
+
+.barra-de-tarefas ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.barra-de-tarefas li {
+  padding: 0 30px;
+}
+
+.barra-de-tarefas a {
+  color: #97eab5;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  line-height: 40px;
+}
+
+.barra-de-tarefas-sup {
+  background: #97eab5;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  width: 395px;
+  height: 85px;
+}
+
+.icon {
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: auto;
+  justify-content: bottom, left, center;
+}
+
+img.icon-sup2 {
+  position: absolute;
+  top: 0;
+  bottom: 20;
+  left: 0;
+  right: 2;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.icon {
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: auto;
+  justify-content: bottom, left, center;
+}
+
+.icones-su {
+  display: flex;
+  justify-content: top;
+  margin-top: 2;
+  margin-bottom: 12;
+  width: 35px;
+  height: 35px;
+}
+
+.icones-su img {
+  margin-left: 60px;
+  margin-right: 0;
+}
+
+.icones-in {
+  display: flex;
+  justify-content: bottom;
+  margin-bottom: 0;
+  width: 45px;
+  height: 45px;
+}
+
+.icones-in img {
+  margin-left: 65px;
+  margin-right: 0;
+}
+
+.icon {
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: auto;
+  justify-content: bottom, left, center;
+}
+
+img.icon-sup1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+}
+
 .logo_Section {
   text-align: center;
 }
