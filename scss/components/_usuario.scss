@@ -17,25 +17,26 @@
 }
 
 .botoes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    font-family: $font_quar;
-    font-size: 200%;
-    color: $verde_escuro;
-    margin: 20px 15px 2px 55px;
-    justify-content: center;
-  }
-  .botoes button {
-    margin: 20px;
-    border: 25px solid $verde_claro;
-    width: 140px;
-    height: 80px;
-    color: black;
-    border-radius: 80px;
-    padding: 3px 2px 2px;
-    background: $verde_claro;}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  font-family: $font_quar;
+  font-size: 200%;
+  color: $verde_escuro;
+  margin: 20px 15px 2px 55px;
+  justify-content: center;
+}
+.botoes button {
+  margin: 20px;
+  border: 25px solid $verde_claro;
+  width: 140px;
+  height: 80px;
+  color: black;
+  border-radius: 80px;
+  padding: 3px 2px 2px;
+  background: $verde_claro;
+}
 
 .grafics {
   display: flex;
@@ -65,18 +66,18 @@
 }
 
 .barra-de-tarefas ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .barra-de-tarefas li {
-    padding: 0 30px;
-  }
+  padding: 0 30px;
+}
 .barra-de-tarefas a {
   color: $verde_claro;
   text-decoration: none;
@@ -94,12 +95,12 @@
   height: 85px;
 }
 .icon {
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: auto;
-    justify-content: bottom, left, center;
-  }
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: auto;
+  justify-content: bottom, left, center;
+}
 
 img.icon-sup2 {
   position: absolute;
@@ -113,13 +114,12 @@ img.icon-sup2 {
 }
 
 .icon {
-    align-items: center;
-    justify-content: center;
-    width: 20px;
-    height: auto;
-    justify-content: bottom,left, center;
-  
-  } 
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: auto;
+  justify-content: bottom, left, center;
+}
 
 .icones-su {
   display: flex;
@@ -128,11 +128,13 @@ img.icon-sup2 {
   margin-bottom: 12;
   width: 35px;
   height: 35px;
+  padding: 0 0 0 0;
 }
 
 .icones-su img {
   margin-left: 60px;
   margin-right: 0;
+  padding: 0 0 2em 0;
 }
 
 .icones-in {

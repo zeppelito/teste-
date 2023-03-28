@@ -216,15 +216,49 @@ input::placeholder {
 }
 
 .profile img {
-  margin: 50px 0 0 250px;
+  justify-content: right, space-between;
+  border-radius: 20px;
+  border: solid #97eab5;
+  padding: 2em 2em 2em 2em;
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 20px;
 }
 .profile h2 {
   display: flex;
   font-family: "NTR", sans-serif;
-  padding: 0.75em 0 0 0;
+  padding: 0.75em 2em 0 0;
   margin: 20px;
   font-size: 2em;
   text-decoration: underline;
+}
+
+.biografia {
+  display: flex;
+  font-family: "M PLUS 1", sans-serif;
+  justify-content: start;
+  padding: 2em 0 2em 0;
+  margin: 20px;
+  font-size: 2em;
+}
+
+h3 {
+  display: flex;
+  font-family: "NTR", sans-serif;
+  justify-content: center;
+  padding: 2em 0 2em 0;
+}
+
+.biografia {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: #97eab5;
+  color: #000000;
+  padding: 10px;
+  font-size: 16px;
 }
 
 .container {
@@ -360,11 +394,13 @@ img.icon-sup2 {
   margin-bottom: 12;
   width: 35px;
   height: 35px;
+  padding: 0 0 0 0;
 }
 
 .icones-su img {
   margin-left: 60px;
   margin-right: 0;
+  padding: 0 0 2em 0;
 }
 
 .icones-in {

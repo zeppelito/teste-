@@ -7,15 +7,55 @@
 
 .profile {
   img {
-    margin: 50px 0 0 250px;
+    justify-content: right, space-between;
+    border-radius: 20px;
+    border: solid $verde_claro;
+    padding: 2em 2em 2em 2em;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
   }
 
   h2 {
     display: flex;
     font-family: $font_terc;
-    padding: 0.75em 0 0 0;
+    padding: 0.75em 2em 0 0;
     margin: 20px;
     font-size: 2em;
     text-decoration: underline;
   }
 }
+
+.biografia {
+  display: flex;
+  font-family: $font_main;
+  justify-content: start;
+  padding: 2em 0 2em 0 ;
+  margin: 20px;
+  font-size: 2em;
+
+}
+h3 {
+  display: flex;
+  font-family: $font_terc;
+  justify-content: center;
+  padding: 2em 0 2em 0;
+}
+
+
+.biografia {
+  width: 300px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background: $verde_claro;
+  color: $preto;
+  padding: 10px;
+  font-size: 16px;
+
+
+
+}
+
+
