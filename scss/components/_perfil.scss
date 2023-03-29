@@ -7,31 +7,55 @@
 
 .profile {
   img {
-    display: inline-block;
     max-width: 100%;
     height: auto;
-    padding: 0 15em 0 15em;
-    
-  }
-
-  h2 {
-    display: flex;
+    padding: 3em 0em 0em 9em;
+} 
+  #nome {
     font-family: $font_terc;
-    padding: 0.75em 2em 0 0;
-    margin: 20px;
-    font-size: 2em;
-    text-decoration: underline;
-    margin-left: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
   }
+   #empresa {
+    font-family: $font_terc;
+    font-size: 20px;
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 2em 2em 0 3.5em;
+   } 
+
+   #pacote{
+    font-family: $font_terc;
+    font-size: 20px;
+    display: inline-block;
+    justify-content: flex-start;
+    padding: 0 0 0 0;
+    margin: 0 0 0 2em;
+   }
 }
 
-.biografia {
+.empresa {
+  font-family: $font_terc;
+}
+
+.Biografia {
   display: flex;
   font-family: $font_main;
   justify-content: start;
-  padding: 2em 0 2em 0;
-  margin: 20px;
+  padding: 2em 4em 0 4em;
+  margin: 0px;
   font-size: 2em;
+  justify-content: center;
+}
+.bio{
+  display: inline-block;
+  border: 20px;
+  border-radius: 20px;
+  background: $verde_claro;
+  padding: 4em 4em 4em 4em;
+  justify-content: center;
+ 
 }
 h3 {
   display: flex;
@@ -40,19 +64,5 @@ h3 {
   padding: 2em 0 2em 0;
 }
 
-.biografia {
-  width: 300px;
-  height: 100px;
-  border: 1px solid;
-  border-radius: 20px;
-  background: $verde_claro;
-  color: $preto;
-  padding: 10px;
-  font-size: 16px;
-  justify-content: flex-start;
+  
 
-  .bio {
-    background: $verde_claro;
-    border: none;
-  }
-}

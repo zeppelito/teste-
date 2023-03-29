@@ -216,28 +216,53 @@ input::placeholder {
 }
 
 .profile img {
-  display: inline-block;
   max-width: 100%;
   height: auto;
-  padding: 0 15em 0 15em;
+  padding: 3em 0em 0em 9em;
 }
-.profile h2 {
-  display: flex;
+.profile #nome {
   font-family: "NTR", sans-serif;
-  padding: 0.75em 2em 0 0;
-  margin: 20px;
-  font-size: 2em;
-  text-decoration: underline;
-  margin-left: 10px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.profile #empresa {
+  font-family: "NTR", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  justify-content: flex-end;
+  padding: 2em 2em 0 3.5em;
+}
+.profile #pacote {
+  font-family: "NTR", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  justify-content: flex-start;
+  padding: 0 0 0 0;
+  margin: 0 0 0 2em;
 }
 
-.biografia {
+.empresa {
+  font-family: "NTR", sans-serif;
+}
+
+.Biografia {
   display: flex;
   font-family: "M PLUS 1", sans-serif;
   justify-content: start;
-  padding: 2em 0 2em 0;
-  margin: 20px;
+  padding: 2em 4em 0 4em;
+  margin: 0px;
   font-size: 2em;
+  justify-content: center;
+}
+
+.bio {
+  display: inline-block;
+  border: 20px;
+  border-radius: 20px;
+  background: #97eab5;
+  padding: 4em 4em 4em 4em;
+  justify-content: center;
 }
 
 h3 {
@@ -245,22 +270,6 @@ h3 {
   font-family: "NTR", sans-serif;
   justify-content: center;
   padding: 2em 0 2em 0;
-}
-
-.biografia {
-  width: 300px;
-  height: 100px;
-  border: 1px solid;
-  border-radius: 20px;
-  background: #97eab5;
-  color: #000000;
-  padding: 10px;
-  font-size: 16px;
-  justify-content: flex-start;
-}
-.biografia .bio {
-  background: #97eab5;
-  border: none;
 }
 
 .container {
