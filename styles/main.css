@@ -216,14 +216,10 @@ input::placeholder {
 }
 
 .profile img {
-  justify-content: right, space-between;
-  border-radius: 20px;
-  border: solid #97eab5;
-  padding: 2em 2em 2em 2em;
-  display: flex;
-  align-items: flex-start;
-  align-content: flex-start;
-  gap: 20px;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 0 15em 0 15em;
 }
 .profile h2 {
   display: flex;
@@ -232,6 +228,7 @@ input::placeholder {
   margin: 20px;
   font-size: 2em;
   text-decoration: underline;
+  margin-left: 10px;
 }
 
 .biografia {
@@ -252,13 +249,18 @@ h3 {
 
 .biografia {
   width: 300px;
-  height: 40px;
-  border: 1px solid #ccc;
+  height: 100px;
+  border: 1px solid;
   border-radius: 20px;
   background: #97eab5;
   color: #000000;
   padding: 10px;
   font-size: 16px;
+  justify-content: flex-start;
+}
+.biografia .bio {
+  background: #97eab5;
+  border: none;
 }
 
 .container {
