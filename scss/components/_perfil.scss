@@ -43,18 +43,18 @@
   display: flex;
   font-family: $font_main;
   justify-content: start;
-  padding: 2em 4em 0 4em;
+  padding: 2em 4em 1em 4em;
   margin: 0px;
   font-size: 2em;
   justify-content: center;
 }
 .bio{
-  display: inline-block;
+  display: flex;
   border: 20px;
   border-radius: 20px;
   background: $verde_claro;
-  padding: 4em 4em 4em 4em;
-  justify-content: center;
+  padding: 4em 4em 4em 13.4em;
+  text-align: start;
  
 }
 h3 {
@@ -63,6 +63,20 @@ h3 {
   justify-content: center;
   padding: 2em 0 2em 0;
 }
+ 
+h2 {
+  padding: 0 0 2em 0;
+  display: flex;
+  text-align: center;
+  font-family: $font_main;
+   
+}
+.consulta {
+  font-family: $font_main;
+}
+.foto {
+  display: flex;
+  margin: 0 0 0 2em ;
 
-  
+}
 
