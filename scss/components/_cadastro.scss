@@ -4,6 +4,8 @@
     h2 {
       font-family: $font_quar;
       font-size: 20px;
+      display: flex;
+      justify-content: center;
     } 
   }
 
@@ -21,3 +23,11 @@
         }
     }
 }
+
+.or{
+  display: flex;
+  justify-content: center;
+  padding: 0 0 2em 0;
+  font-family: $font_terc;
+}
+

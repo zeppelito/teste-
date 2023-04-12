@@ -1,12 +1,15 @@
 .welcome {
     align-items: center;
 
+    
+    
     h2 {
-        display: flex;
+        display: absolute;
         text-align: center;
         font-family: $font_sec;
         font-size: 65px;
         margin: 1em 1.3em 0 1.4em;
+        padding: 0;
         color: $verde_escuro;
     }
 
