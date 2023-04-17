@@ -31,3 +31,16 @@
   font-family: $font_terc;
 }
 
+.submit {
+  background-color: $verde_claro;
+  border-radius: 20px;
+  justify-content: center;
+  font-family: $font_main;
+  padding: 0 5em 1em 6em ;
+  margin: 40px;
+
+.icone {
+  display: inline-block;
+  padding: 0 0 0 2px;
+}
+}

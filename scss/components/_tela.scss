@@ -1,0 +1,198 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: $verde_claro;
+  }
+  
+  .menu-btn {
+    position: relative;
+  }
+  
+  .menu-btn button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .submenu {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: $verde_claro;
+    padding: 10px;
+    border: 1px solid $branco;
+    display: none;
+  }
+  
+  .menu-btn:hover .submenu {
+    display: block;
+  }
+  
+  .submenu button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0 0 5px 10px;
+    border: 1px;
+    border-radius: 20px;
+    background-color: #a9a9a9;
+    cursor: pointer;
+  }
+  
+  .profile-btn button,
+  .options-btn button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .options-btn {
+    margin-left: auto;
+  }
+  
+  .profile-btn {
+    margin: 0 auto;
+  }
+
+  .profile-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+//
+.circle-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem 0;
+  }
+  
+  .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 1rem 1rem;
+    border-radius: 50%;
+    background-color: transparent;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: black;
+    box-sizing: border-box;
+    font-family: $font_main;
+  }
+  
+  .circle.blue {
+    background-color: #848de1;
+  }
+  
+  .circle.green {
+    background-color: #6fc272;
+    
+  }
+  
+  .circle.red {
+    background-color: #f97e7e;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text span:first-child {
+    margin-bottom: 0.2rem;
+  }
+
+  
+  //
+
+  .botao {
+    display: inline-block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: #f4a460;
+    color: $preto;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: $font_main;
+    margin: 20px 0 20px 130px;
+  }
+
+  .botao ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color:  #f4a460;
+    border-radius: 20px;
+    font-family: $font_main;
+  }
+
+  .botao:hover ul {
+    display: block;
+  }
+
+  .botao ul li {
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    border-radius: 20px;
+    font-family: $font_main;
+  }
+
+  .botao ul li:first-child {
+    border-top: none;
+  }
+
+  .botao ul li a {
+    display: block;
+    color: $preto;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    font-family: $font_main;
+  }
+
+  .indicate{
+    background-color: #f4a460;
+    font-family: $font_main;
+    font-size: large;
+    text-align: center;
+    padding: 15px 0 15px 0px;
+    margin: 20px 0  0px 0;
+  }
+
+  .graphic {
+    background-color: #f4a460;
+    font-family: $font_main;
+    font-size: large;
+    text-align: center;
+    padding: 0 0 10px 20px;
+    margin: 80px 0 100px 60px;
+    border: transparent;
+    border-radius: 20px;
+    display: flex;
+  }
+
+  .update {
+    text-align: center;
+    font-family: $font_main;
+  }
