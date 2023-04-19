@@ -3,7 +3,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: $verde_claro;
+    background-color: $verde_claro; 
   }
   
   .menu-btn {
@@ -40,6 +40,7 @@ header {
     border-radius: 20px;
     background-color: #a9a9a9;
     cursor: pointer;
+    overflow-x: hidden 
   }
   
   .profile-btn button,
@@ -185,7 +186,7 @@ header {
     font-family: $font_main;
     font-size: large;
     text-align: center;
-    padding: 0 0 10px 20px;
+    padding: 8px 2px 10px 10px;
     margin: 80px 0 100px 60px;
     border: transparent;
     border-radius: 20px;
@@ -196,3 +197,52 @@ header {
     text-align: center;
     font-family: $font_main;
   }
+
+  .button1 {
+  background-color: $verde_claro;
+  color: $preto;
+  font-size: 27px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 1em 0 2em 2em;
+}
+
+  .button2 {
+  background-color: $verde_claro;
+  color: $preto;
+  font-size: 27px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 1em 0 5em 4.6em;
+  }
+
+.hud {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: $verde_escuro;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 999;
+}
+.button {
+  background-color: $verde_escuro;
+  color: black;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #eee;
+}
+
