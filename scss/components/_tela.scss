@@ -1,4 +1,4 @@
-header {
+.cab {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,8 +23,8 @@ header {
     right: 0;
     background-color: $verde_claro;
     padding: 10px;
-    border: 1px solid $branco;
     display: none;
+    margin: 0 0 0 40px;
   }
   
   .menu-btn:hover .submenu {
@@ -40,7 +40,6 @@ header {
     border-radius: 20px;
     background-color: #a9a9a9;
     cursor: pointer;
-    overflow-x: hidden 
   }
   
   .profile-btn button,

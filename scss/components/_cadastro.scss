@@ -1,14 +1,17 @@
 .cabeceira {
     text-align: center;
-  
+    
     h2 {
       font-family: $font_quar;
       font-size: 20px;
       display: flex;
       justify-content: center;
     } 
-  }
 
+  }
+ .logo_Section{
+  margin: 0px 0px 16px 0px;
+ }
 .footer {
     background-color: $verde_escuro;
     height: 66px;
@@ -31,13 +34,16 @@
   font-family: $font_terc;
 }
 
-.submit {
-  background-color: $verde_claro;
-  border-radius: 20px;
-  justify-content: center;
-  font-family: $font_main;
-  padding: 0 5em 1em 6em ;
-  margin: 40px;
+.cell {
+  padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+    border: none;
+    background-color: $verde_escuro;
+    font-size: 18px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 20px;
 
 .icone {
   display: inline-block;

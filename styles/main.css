@@ -66,6 +66,10 @@ table {
   justify-content: center;
 }
 
+.logo_Section {
+  margin: 0px 0px 16px 0px;
+}
+
 .footer {
   background-color: #31DD6F;
   height: 66px;
@@ -86,25 +90,33 @@ table {
   font-family: "NTR", sans-serif;
 }
 
-.submit {
-  background-color: #97eab5;
+.cell {
+  padding: 10px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  border: none;
+  background-color: #31DD6F;
+  font-size: 18px;
+  cursor: pointer;
+  width: 200px;
   border-radius: 20px;
-  justify-content: center;
-  font-family: "M PLUS 1", sans-serif;
-  padding: 0 5em 1em 6em;
-  margin: 40px;
 }
-.submit .icone {
+.cell .icone {
   display: inline-block;
   padding: 0 0 0 2px;
 }
 
 .cabeceira {
   text-align: center;
+  padding: 0 0 0 0;
+  justify-content: center;
 }
 .cabeceira h2 {
   font-family: "M PLUS 2", sans-serif;
   font-size: 20px;
+}
+.cabeceira .logo {
+  margin: 0px 16px;
 }
 
 .formulario form {
@@ -151,12 +163,15 @@ input::placeholder {
 }
 
 .enviar {
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: none;
   background-color: #31DD6F;
+  font-size: 18px;
+  cursor: pointer;
+  width: 200px;
   border-radius: 20px;
-  justify-content: center;
-  font-family: "M PLUS 1", sans-serif;
-  padding: 0 5em 1em 5em;
-  margin: 40px;
 }
 
 .welcome {
@@ -311,7 +326,7 @@ h2 {
   margin: 0 0 0 2em;
 }
 
-header {
+.cab {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -336,8 +351,8 @@ header {
   right: 0;
   background-color: #97eab5;
   padding: 10px;
-  border: 1px solid #ffffff;
   display: none;
+  margin: 0 0 0 40px;
 }
 
 .menu-btn:hover .submenu {
@@ -353,7 +368,6 @@ header {
   border-radius: 20px;
   background-color: #a9a9a9;
   cursor: pointer;
-  overflow-x: hidden;
 }
 
 .profile-btn button,
@@ -556,7 +570,7 @@ header {
   background-color: #eee;
 }
 
-header {
+.cab {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -623,7 +637,7 @@ header {
   transform: translateX(-50%);
 }
 
-header {
+.cab {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -688,6 +702,47 @@ header {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.data {
+  display: flex;
+  text-align: center;
+  font-size: 24px;
+  font-family: "M PLUS 1", sans-serif;
+  margin: 40px 0 20px 40px;
+}
+
+.logo1 {
+  display: flex;
+  margin: 40px 0 20px 110px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+input[type=text] {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #97eab5;
+  font-size: 20px;
+  margin: 20px;
+}
+
+input[type=submit] {
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #31DD6F;
+  font-size: 18px;
+  cursor: pointer;
+  width: 200px;
+  border-radius: 20px;
 }
 
 .logo_Section {

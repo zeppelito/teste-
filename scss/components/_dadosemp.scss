@@ -1,0 +1,44 @@
+.data {
+    display: flex;
+    text-align: center;
+    font-size: 24px;
+    font-family: $font_main;
+    margin: 40px 0 20px 40px
+    ;
+}
+
+.logo1 {
+    display: flex;
+    margin: 40px 0 20px 110px;
+    
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: $verde_claro; 
+    font-size: 20px;
+    margin: 20px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: $verde_escuro;
+    font-size: 18px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 20px;
+    
+}
+
