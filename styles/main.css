@@ -88,6 +88,7 @@ table {
   justify-content: center;
   padding: 0 0 2em 0;
   font-family: "NTR", sans-serif;
+  font-size: 20px;
 }
 
 .cell {
@@ -100,6 +101,10 @@ table {
   cursor: pointer;
   width: 200px;
   border-radius: 20px;
+  margin: 0 0 0 90px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "NTR", sans-serif;
 }
 .cell .icone {
   display: inline-block;
@@ -246,84 +251,9 @@ input::placeholder {
   margin: 5px;
 }
 
-.headercomponents {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 15px 0 15px;
-  background-color: #31DD6F;
-}
-
-.profile img {
-  max-width: 100%;
-  height: auto;
-  padding: 3em 0em 0em 9em;
-}
-.profile #nome {
-  font-family: "NTR", sans-serif;
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-}
-.profile #empresa {
-  font-family: "NTR", sans-serif;
-  font-size: 20px;
-  display: inline-block;
-  justify-content: flex-end;
-  padding: 2em 2em 0 3.5em;
-}
-.profile #pacote {
-  font-family: "NTR", sans-serif;
-  font-size: 20px;
-  display: inline-block;
-  justify-content: flex-start;
-  padding: 0 0 0 0;
-  margin: 0 0 0 2em;
-}
-
-.empresa {
-  font-family: "NTR", sans-serif;
-}
-
-.Biografia {
-  display: flex;
-  font-family: "M PLUS 1", sans-serif;
-  justify-content: start;
-  padding: 2em 4em 1em 4em;
-  margin: 0px;
-  font-size: 2em;
-  justify-content: center;
-}
-
-.bio {
-  display: flex;
-  border: 20px;
-  border-radius: 20px;
-  background: #97eab5;
-  padding: 4em 4em 4em 13.4em;
-  text-align: start;
-}
-
-h3 {
-  display: flex;
-  font-family: "NTR", sans-serif;
-  justify-content: center;
-  padding: 2em 0 2em 0;
-}
-
-h2 {
-  padding: 0 0 2em 0;
-  display: flex;
-  text-align: center;
-  font-family: "M PLUS 1", sans-serif;
-}
-
-.consulta {
-  font-family: "M PLUS 1", sans-serif;
-}
-
 .foto {
   display: flex;
-  margin: 0 0 0 2em;
+  margin: 0 0 0 2.4em;
 }
 
 .cab {
@@ -521,27 +451,29 @@ h2 {
 }
 
 .button1 {
+  display: absolute;
   background-color: #97eab5;
   color: #000000;
-  font-size: 27px;
-  padding: 10px 20px;
+  font-size: 22px;
+  padding: 10px 23px;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
-  border-radius: 20px;
-  margin: 1em 0 2em 2em;
+  width: 90%;
+  margin: 40px 0 20px 25px;
 }
 
 .button2 {
+  display: absolute;
   background-color: #97eab5;
   color: #000000;
-  font-size: 27px;
-  padding: 10px 20px;
+  font-size: 22px;
+  padding: 10px 23px;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
-  border-radius: 20px;
-  margin: 1em 0 5em 4.6em;
+  width: 90%;
+  margin: 1em 0 5em 25px;
 }
 
 .hud {
@@ -637,6 +569,48 @@ h2 {
   transform: translateX(-50%);
 }
 
+.graphicX {
+  margin: 0 0 0 65px;
+}
+
+.midle {
+  margin: 30px 0 0 155px;
+  font-size: 55px;
+  font-family: "NTR", sans-serif;
+}
+
+.percentage {
+  font-size: 25px;
+  font-family: "NTR", sans-serif;
+  margin: 10px 30px 60px 55px;
+  text-align: center;
+}
+
+.SWOT {
+  display: absolute;
+  text-decoration: none;
+  background-color: #97eab5;
+  color: #000000;
+  font-family: "NTR", sans-serif;
+  margin: 0 0 0 95px;
+  font-size: 25px;
+  padding: 10px 23px;
+  border-radius: 50px;
+  width: 100%;
+}
+
+.SWOT2 {
+  display: inline;
+  text-decoration: none;
+  background-color: #97eab5;
+  color: #000000;
+  font-family: "NTR", sans-serif;
+  font-size: 22px;
+  margin: 0 0 0 74px;
+  padding: 10px 23px;
+  border-radius: 50px;
+}
+
 .cab {
   display: flex;
   justify-content: space-between;
@@ -704,6 +678,23 @@ h2 {
   transform: translateX(-50%);
 }
 
+.suaemp {
+  margin: 30px 20px 20px 50px;
+}
+
+.buttonX {
+  display: absolute;
+  background-color: #97eab5;
+  color: #000000;
+  font-size: 25px;
+  padding: 15px 23px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 90%;
+  margin: 30px 0 20px 30px;
+}
+
 .data {
   display: flex;
   text-align: center;
@@ -743,6 +734,31 @@ input[type=submit] {
   cursor: pointer;
   width: 200px;
   border-radius: 20px;
+}
+
+.cabe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #31DD6F;
+}
+
+.zoio {
+  margin: 0 0 0 58px;
+}
+
+.buttonY {
+  display: absolute;
+  background-color: #ff6666;
+  color: #000000;
+  font-size: 25px;
+  padding: 15px 23px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 90%;
+  margin: 30px 0 35px 30px;
 }
 
 .logo_Section {

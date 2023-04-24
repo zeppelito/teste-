@@ -198,27 +198,29 @@
   }
 
   .button1 {
-  background-color: $verde_claro;
-  color: $preto;
-  font-size: 27px;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  border-radius: 20px;
-  margin: 1em 0 2em 2em;
+    display: absolute;
+    background-color: $verde_claro;
+    color: $preto;
+    font-size: 22px;
+    padding: 10px 23px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 90%;
+    margin: 40px 0 20px 25px;
 }
 
   .button2 {
+  display: absolute;
   background-color: $verde_claro;
   color: $preto;
-  font-size: 27px;
-  padding: 10px 20px;
+  font-size: 22px;
+  padding: 10px 23px;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   cursor: pointer;
-  border-radius: 20px;
-  margin: 1em 0 5em 4.6em;
+  width: 90%;
+  margin: 1em 0 5em 25px;
   }
 
 .hud {

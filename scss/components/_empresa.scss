@@ -64,3 +64,23 @@
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .suaemp{
+    margin: 30px 20px 20px 50px;
+  }
+
+  .buttonX {
+    display: absolute;
+    background-color: $verde_claro;
+    color: $preto;
+    font-size: 25px;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 90%;
+    margin: 30px 0 20px 30px;
+  }
+
+
+  
