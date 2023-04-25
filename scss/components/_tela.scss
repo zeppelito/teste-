@@ -7,24 +7,21 @@
   }
   
   .menu-btn {
-    position: relative;
+    display: flex;
   }
   
   .menu-btn button {
-    background-color: transparent;
     border: none;
     font-size: 18px;
     cursor: pointer;
+    width: 100%;    
+    margin: -4px 50px -15px 0;
   }
   
   .submenu {
-    position: absolute;
-    top: 40px;
-    right: 0;
     background-color: $verde_claro;
-    padding: 10px;
     display: none;
-    margin: 0 0 0 40px;
+    margin: 0 3px 100px 50px;
   }
   
   .menu-btn:hover .submenu {
@@ -32,14 +29,16 @@
   }
   
   .submenu button {
-    display: block;
+    display: flex;
     width: 100%;
-    text-align: left;
-    padding: 0 0 5px 10px;
-    border: 1px;
+    text-align: center;
+    padding: 8px 7px 11px 12px;
+    border: 0px;
     border-radius: 20px;
     background-color: #a9a9a9;
     cursor: pointer;
+    overflow-x: hidden;
+    margin: 27px 3px 11px 5px;
   }
   
   .profile-btn button,
@@ -69,7 +68,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem 0;
+    margin: 1rem 0 2em 0;
   }
   
   .circle {
@@ -197,30 +196,30 @@
     font-family: $font_main;
   }
 
-  .button1 {
-    display: absolute;
+  .efice{
     background-color: $verde_claro;
     color: $preto;
-    font-size: 22px;
-    padding: 10px 23px;
+    font-size: 25px;
+    padding: 15px 23px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    width: 90%;
-    margin: 40px 0 20px 25px;
+    width: 100%;
+    margin: 30px 0 20px 55px;
+    font-family: $font_terc;
+    text-decoration: none;
 }
 
   .button2 {
-  display: absolute;
-  background-color: $verde_claro;
-  color: $preto;
-  font-size: 22px;
-  padding: 10px 23px;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  width: 90%;
-  margin: 1em 0 5em 25px;
+    background-color: #97eab5;
+    color: #000000;
+    font-size: 26px;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 78%;
+    margin: 40px 0 5em 48px;
   }
 
 .hud {

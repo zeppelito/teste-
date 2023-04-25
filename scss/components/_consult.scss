@@ -1,0 +1,96 @@
+.edit{
+    position: absolute;
+    width: 209px;
+    height: 69px;
+    left: 0px;
+    top: 139px;
+    background: $verde_claro;
+    border-radius: 50px;
+    font-size: 21px;
+    border: none;
+    font-family: $font_terc;
+}
+
+.custo{
+    position: absolute;
+    width: 250px;
+    height: 69px;
+    left: 0px;
+    top: 244px;
+    background: $verde_claro;
+    border-radius: 50px; 
+    font-size: 21px;      
+    border: none; 
+}
+
+.obj{
+    position: absolute;
+    width: 390px;
+    height: 162px;
+    left: 0px;
+    top: 335px;
+    background: $verde_claro;
+    border-radius: 50px;
+    font-size: 21px;
+    border: none;
+}
+
+.soso{
+    position: absolute;
+    top: 60%;
+    font-family: $font_terc;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;        
+    text-align: center;
+    right: 80px;
+}
+
+.ind{
+    position: absolute;
+    top: 85%;
+    font-family: $font_terc;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;        
+    text-align: center;
+    left: -30px;   
+    border: none;
+    margin: 0 0 0 60px;
+}
+
+.user{
+    position: absolute;
+    top: 60%;
+}
+
+.e1{
+position: absolute;
+width: 350px;
+height: 92px;
+left: 0px;
+top: 589px;
+line-height: 90px;
+padding-right: 10px;
+background: $verde_claro;
+border-radius: 50px;
+font-size: 21px; 
+padding-left: 25px;   
+font-family: $font_main;
+
+}
+
+.user{
+position: absolute;
+width: 49px;
+height: 50px;
+left: 285px;
+top: 580px;
+}
+
+.veri{
+position: absolute;
+width: 30px;
+height: 30px;
+margin: 0px 0px 0px 70px;
+}
