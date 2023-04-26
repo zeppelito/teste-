@@ -251,9 +251,83 @@ input::placeholder {
   margin: 5px;
 }
 
+.selection2 {
+  margin: 20px 20px 20px 100px;
+}
+
+.nombre {
+  font-family: "M PLUS 1", sans-serif;
+  margin: 20px 0 40px 0px;
+  font-size: 24px;
+}
+
+.nombre1 {
+  font-family: "M PLUS 1", sans-serif;
+  margin: 15px 0 14px 141px;
+  font-size: 24px;
+}
+
+.bio {
+  margin: 0 0 0 22px;
+  padding: 110px 0 0 181px;
+  border-radius: 20px;
+  background-color: #97eab5;
+  writing-mode: horizontal-tb;
+  border: none;
+}
+
+.package {
+  margin: 20px 20px 60px 20px;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.plan {
+  background-color: #97eab5;
+  margin: 14px 61px 16px;
+  padding: 17px 17px 16px 20px;
+  border-radius: 20px;
+}
+
+.pacck {
+  background-color: #ACAAAA;
+  margin: 0px 163px -55px 0px;
+  padding: 17px 17px 16px 20px;
+  border-radius: 20px;
+}
+
+.dolar {
+  background-color: #31DD6F;
+  padding: 20px 8px 21px 13px;
+  margin: 0px 1px 16px 190px;
+  border-radius: 20px;
+}
+
+.text12 {
+  background-color: #97eab5;
+  border-radius: 25px;
+  margin: 0 0 24px 0;
+}
+
+.consulta {
+  display: absolute;
+  background-color: #97eab5;
+  color: #000000;
+  font-size: 25px;
+  padding: 25px 13px 21px 12px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  width: 90%;
+  margin: 21px 0 20px 30px;
+  text-decoration: none;
+  font-family: "M PLUS 1", sans-serif;
+}
+
 .foto {
-  display: flex;
-  margin: 0 0 0 2.4em;
+  margin: 20px 0 0 35px;
 }
 
 .cab {
@@ -268,7 +342,7 @@ input::placeholder {
   display: flex;
 }
 
-.menu-btn button {
+.menu-btn a {
   border: none;
   font-size: 18px;
   cursor: pointer;
@@ -286,17 +360,21 @@ input::placeholder {
   display: block;
 }
 
-.submenu button {
+.submenu a {
   display: flex;
-  width: 100%;
+  width: 83%;
   text-align: center;
-  padding: 8px 7px 11px 12px;
+  padding: 8px 6px 11px 12px;
   border: 0px;
   border-radius: 20px;
   background-color: #a9a9a9;
   cursor: pointer;
   overflow-x: hidden;
-  margin: 27px 3px 11px 5px;
+  margin: 30px 0px 15px 5px;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 50px;
+  font-family: "NTR", sans-serif;
 }
 
 .profile-btn button,
@@ -712,7 +790,7 @@ input::placeholder {
   margin-top: 20px;
 }
 
-input[type=text] {
+.inputs [type=text] {
   padding: 5px;
   border-radius: 20px;
   background-color: #97eab5;
@@ -720,7 +798,7 @@ input[type=text] {
   margin: 20px;
 }
 
-input[type=submit] {
+.inputs [type=submit] {
   padding: 10px;
   margin: 20px 0;
   border-radius: 5px;
@@ -1005,6 +1083,90 @@ input[type=submit] {
   font-family: "NTR", sans-serif;
   border: none;
   margin: 0 20px 20px 60px;
+}
+
+.empre {
+  margin: 20px 20px 20px 30px;
+}
+
+.infos {
+  background-color: #97eab5;
+  padding: 0 20px 50px 20px;
+  margin: 21px 23px 50px 34px;
+  border-radius: 20px;
+}
+
+.cnpj {
+  font-family: "M PLUS 1", sans-serif;
+  margin: 0 0 20px 0;
+  padding: 20px 0 13px 0;
+  font-size: 22px;
+}
+
+.empi {
+  font-family: "M PLUS 1", sans-serif;
+  margin: 0 0 20px 0;
+  padding: 20px 0 13px 0;
+  font-size: 22px;
+}
+
+.funci {
+  font-family: "M PLUS 1", sans-serif;
+  margin: 0 0 20px 0;
+  padding: 20px 0 13px 0;
+  font-size: 22px;
+}
+
+.consult12 {
+  font-family: "M PLUS 1", sans-serif;
+  margin: 0 0 20px 0;
+  padding: 20px 0 13px 0;
+  font-size: 22px;
+}
+
+.premiumm {
+  font-family: "M PLUS 1", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 50px 0px 0 135px;
+}
+
+.rackss {
+  background-color: #97eab5;
+  padding: 0 20px 50px 20px;
+  margin: 21px 23px 34px 34px;
+  border-radius: 20px;
+}
+
+.prack {
+  font-family: "M PLUS 1", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 50px 0px 0 75px;
+  padding: 25px 0 0 32px;
+}
+
+.checklists {
+  margin: 0 0 0 -195px;
+}
+
+.checklists1 {
+  margin: 0 0 0 -87px;
+}
+
+.checklists2 {
+  margin: 0 0 0 -202px;
+}
+
+.checklists3 {
+  margin: 0 0 0 -252px;
+}
+
+.aligns {
+  margin: 0 0 0 0;
+  font-size: 20px;
+  font-family: "M PLUS 2", sans-serif;
+  text-align: center;
 }
 
 .logo_Section {

@@ -1,4 +1,79 @@
-.foto {
-  display: flex;
-  margin: 0 0 0 2.4em ;
+.selection2{
+  margin: 20px 20px 20px 100px ;
 }
+
+.nombre{
+  font-family: $font_main;
+  margin: 20px 0 40px 0px;
+  font-size: 24px;
+}
+
+.nombre1{
+  font-family: $font_main;
+  margin: 15px 0 14px 141px;
+  font-size: 24px;
+}
+
+.bio{
+  margin: 0 0 0 22px;
+  padding: 110px 0 0 181px;
+  border-radius: 20px;
+  background-color: $verde_claro;
+  writing-mode:horizontal-tb;
+  border: none;
+}
+
+.package{
+  margin: 20px 20px 60px 20px;
+  font-family: $font_main;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+.plan{
+  background-color: $verde_claro;
+  margin: 14px 61px 16px;
+  padding: 17px 17px 16px 20px;
+  border-radius: 20px;
+}
+
+.pacck{
+  background-color: #ACAAAA;
+  margin: 0px 163px -55px 0px;
+  padding: 17px 17px 16px 20px;
+  border-radius: 20px;
+}
+
+.dolar{
+  background-color: $verde_escuro;
+  padding: 20px 8px 21px 13px;
+  margin: 0px 1px 16px 190px;
+  border-radius: 20px;
+  }
+
+.text12{
+  background-color: $verde_claro;
+  border-radius: 25px;
+  margin: 0 0 24px 0;
+}
+
+.consulta{
+  display: absolute;
+    background-color: $verde_claro;
+    color: $preto;
+    font-size: 25px;
+    padding: 25px 13px 21px 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 90%;
+    margin: 21px 0 20px 30px;
+    text-decoration: none;
+    font-family: $font_main;
+}
+.foto{
+  margin: 20px 0 0 35px;
+}
+
