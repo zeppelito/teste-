@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráficos </title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <script>
+		function atualizarGrafico() {
+			const grafico = document.getElementById('grafico');
+			const seletor = document.getElementById('seletor-grafico');
+			const opcaoSelecionada = seletor.options[seletor.selectedIndex].value;
+			switch(opcaoSelecionada) {
+				case 'grafico-1':
+					grafico.src = 'images/estagio1.png';
+					break;
+				case 'grafico-2':
+					grafico.src = 'images/estagio2.png';
+					break;
+				case 'grafico-3':
+					grafico.src = 'images/exem_consulto.png';
+					break;
+			}
+		}
+	</script>
+</head>
+<header class="cabe"><img src="images/back.png" alt="back"></header>
+<body>
+    <div>
+        <input type="checkbox" id="imagem1" name="imagem" value="imagem1">
+        <label for="imagem1">
+          <img src="images/estagio1.png" alt="Imagem 1" width="350p" height="240p">
+        </label>
+      </div>
+      <div>
+        <input type="checkbox" id="imagem2" name="imagem" value="imagem2">
+        <label for="imagem2">
+          <img src="images/estagio2.png" alt="Imagem 2" width="350p" height="240p">
+        </label>
+      </div>
+      <div>
+        <input type="checkbox" id="imagem3" name="imagem" value="imagem3">
+        <label for="imagem3">
+          <img src="images/exem_consulto2.png" alt="Imagem 3" width="350p" height="240p">
+        </label>
+      </div>
+      
+
+      <div class="hud">
+      </div>
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Gráficos</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+		function atualizarGrafico() {
+			const grafico = document.getElementById('grafico');
+			const seletor = document.getElementById('seletor-grafico');
+			const opcaoSelecionada = seletor.options[seletor.selectedIndex].value;
+			switch(opcaoSelecionada) {
+				case 'grafico-1':
+					grafico.src = 'images/estagio1.png';
+					break;
+				case 'grafico-2':
+					grafico.src = 'images/estagio2.png';
+					break;
+				case 'grafico-3':
+					grafico.src = 'images/exem_consulto.png';
+					break;
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1>Gráficos Selecionáveis</h1>
+	<label for="seletor-grafico">Selecione um gráfico:</label>
+	<select id="seletor-grafico" onchange="atualizarGrafico()">
+		<option value="grafico-1">Gráfico 1</option>
+		<option value="grafico-2">Gráfico 2</option>
+		<option value="grafico-3">Gráfico 3</option>
+	</select>
+	<br><br>
+	<img id="grafico" src="grafico1.png">
+</body>
+</html> -->

@@ -1128,13 +1128,13 @@ input::placeholder {
   font-family: "M PLUS 1", sans-serif;
   font-weight: bold;
   font-size: 25px;
-  margin: 50px 0px 0 135px;
+  margin: 34px 0px 0 135px;
 }
 
 .rackss {
   background-color: #97eab5;
   padding: 0 20px 50px 20px;
-  margin: 21px 23px 34px 34px;
+  margin: -35px 23px 34px 34px;
   border-radius: 20px;
 }
 
@@ -1163,10 +1163,22 @@ input::placeholder {
 }
 
 .aligns {
-  margin: 0 0 0 0;
+  margin: 26px 0 0 0;
   font-size: 20px;
   font-family: "M PLUS 2", sans-serif;
   text-align: center;
+}
+
+.assine {
+  margin: 0 0 0 75px;
+  padding: 4px 81px 0px 83px;
+  width: 100%;
+  background: #31DD6F;
+  border-radius: 20px;
+  font-size: 28px;
+  text-decoration: none;
+  color: #000000;
+  font-family: "M PLUS 1", sans-serif;
 }
 
 .logo_Section {
